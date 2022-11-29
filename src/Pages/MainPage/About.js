@@ -1,4 +1,9 @@
 import React from 'react';
+import Dave from '/DaveJornales/Documents/test/project-hci-test/src/assets/developers-pictures/dave.jpg'
+import Jeanne from '/DaveJornales/Documents/test/project-hci-test/src/assets/developers-pictures/jeanne.jpg'
+import Shew from '/DaveJornales/Documents/test/project-hci-test/src/assets/developers-pictures/sherwin.jpg'
+import Nenic from '/DaveJornales/Documents/test/project-hci-test/src/assets/developers-pictures/arsenic.jpg'
+import Pat from '/DaveJornales/Documents/test/project-hci-test/src/assets/developers-pictures/pat.jpg'
 
 function About()
 {
@@ -20,20 +25,24 @@ function About()
                 <h2>Developers</h2>
                 <div className='about-developer-pic'>
                     <div className='member1'>
-                        <img src="pic_trulli.jpg" alt="Italian Trulli"/>
-                        <p>Test</p>
+                        <img src={Dave} alt="Dave"/>
+                        <p>Dave Jornales</p>
                     </div>
                     <div className='member2'>
-                        <p>Test</p>
+                        <img src={Shew} alt="Sherwin"/>
+                        <p>Sherwin Mendez</p>
                     </div>
                     <div className='member3'>
-                        <p>Test</p>
+                        <img src={Jeanne} alt="Jeanne"/>
+                        <p>Jeanne Caballes</p>
                     </div>
                     <div className='member4'>
-                        <p>Test</p>
+                        <img src={Nenic} alt="Arsenic"/>
+                        <p>Arsenic Salangsang</p>
                     </div>
                     <div className='member5'>
-                        <p>Test</p>
+                        <img src={Pat} alt="Patrick"/>
+                        <p>Patrick Castro</p>
                     </div> 
                 </div>
             </div>

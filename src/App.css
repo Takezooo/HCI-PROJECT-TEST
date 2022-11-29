@@ -58,7 +58,6 @@ html{
   display: flex;
   justify-content: center;
   gap: 10px;
-  text-overflow: ellipsis;
 }
 
 .nav ul li{
@@ -179,7 +178,8 @@ html{
   font-family: 'Poppins', sans-serif;
   font-size: 3.5vmin;
   font-weight: 700;
-  margin-top: 7vmin;
+  margin-top: 5vmin;
+  margin-bottom: 5vmin;
 }
 
 .about-developer-pic{
@@ -187,5 +187,32 @@ html{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 5vmin;
+  gap: 7vmin;
 }
+
+.about-developer-pic img{
+  width: 70px;
+  height: 70px;
+  border: 1vmin solid #CD8B62;
+  border-radius: 50%;
+}
+
+.about-developer-pic img:hover{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+
+.about-developer-pic p{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.member1, .member2, .member3, 
+.member4, .member5{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
