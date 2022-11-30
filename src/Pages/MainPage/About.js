@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
-import Dave from '/DaveJornales/Documents/test/project-hci-test/src/assets/developers-pictures/dave.jpg'
-import Jeanne from '/DaveJornales/Documents/test/project-hci-test/src/assets/developers-pictures/jeanne.jpg'
-import Shew from '/DaveJornales/Documents/test/project-hci-test/src/assets/developers-pictures/sherwin.jpg'
-import Nenic from '/DaveJornales/Documents/test/project-hci-test/src/assets/developers-pictures/arsenic.jpg'
-import Pat from '/DaveJornales/Documents/test/project-hci-test/src/assets/developers-pictures/pat.jpg'
+import Dave from './assets/developers-pictures/dave.jpg'
+import Jeanne from './assets/developers-pictures/jeanne.jpg'
+import Shew from './assets/developers-pictures/sherwin.jpg'
+import Nenic from './assets/developers-pictures/arsenic.jpg'
+import Pat from './assets/developers-pictures/pat.jpg'
 
 function About()
 {
