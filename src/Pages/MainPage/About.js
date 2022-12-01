@@ -99,7 +99,11 @@ function About()
                         {show2?<h1>Testing2</h1>:null}
                         {show3?<h1>Testing3</h1>:null}
                         {show4?<h1>Testing4</h1>:null}
-                        {show5?<h1>Testing5</h1>:null}
+                        {show5?<div className='pat-quote'>
+                            <p className='pat-quoteContent'> “Learn continually - there's always "one more thing" 
+                            to learn” </p>
+                            <p className='pat-quoteAuthor'>- Steve Jobs</p>
+                        </div>:null}
                 </div>
             </div>
         </div>
