@@ -190,7 +190,7 @@ html{
 .about-developer-pic img{
   width: 70px;
   height: 70px;
-  border: 1vmin solid #604B38;
+  border: .5vmin solid #604B38;
   border-radius: 50%;
 }
 

@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Dave from './assets/developers-pictures/dave.jpg'
-import Jeanne from './assets/developers-pictures/jeanne.jpg'
-import Shew from './assets/developers-pictures/sherwin.jpg'
+import Jeanne from './assets/developers-pictures/jinan.jpg'
+import Shew from './assets/developers-pictures/shew.jpg'
 import Nenic from './assets/developers-pictures/arsenic.jpg'
 import Pat from './assets/developers-pictures/pat.jpg'
 
